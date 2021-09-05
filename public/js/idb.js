@@ -13,7 +13,6 @@ request.onsuccess = function (event) {
   db = event.target.result;
 
   if (navigator.onLine) {
-    console.log("online");
     uploadBudget();
   }
 };
@@ -41,7 +40,6 @@ function uploadBudget() {
   const getAll = budgetObjectStore.getAll();
 
   getAll.onsuccess = function () {
-    console.log("here");
     if (getAll.result.length > 0) {
       fetch("/api/transaction/bulk", {
         method: "POST",
