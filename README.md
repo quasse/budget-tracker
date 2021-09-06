@@ -10,7 +10,7 @@ Clone the project from GitHub. Use `npm start` to begin the server from your loc
 
 ## Deployment
 
-The deployed app is available on Heroku [here](https://fathomless-stream-96472.herokuapp.com/)
+The deployed app is available on Heroku at [https://fathomless-stream-96472.herokuapp.com/](https://fathomless-stream-96472.herokuapp.com/)
 
 ## Screenshot
 
